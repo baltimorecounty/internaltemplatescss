@@ -1,0 +1,789 @@
+#SECalendarEventWrapper .SECalendarEventDetails {
+}
+#SECalendarNav, #SECalendarSearch {
+}
+#SECalendarTable td, #SECalendarTable th, .SECalendarSmallCal td, .SECalendarSmallCal td, #SECalendarWrapper, #SECalendarSummaryWrapper, #SECalendarListWrapper, #SECalendarEventWrapper, #SEEventForm {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 13px;
+}
+.SECalendarKeyword label, .SECalendarLocation label, .SECalendarType label {
+	display : inline-block;
+	font-weight : bold;
+	padding : 4px;
+	vertical-align : top;
+	width : 84px;
+	margin : 15px 0 0;
+}
+.SECalendarKeyword input, .SECalendarLocation input, .SECalendarType input {
+}
+
+
+.SECalendarKeyword select,
+.SECalendarLocation select,
+.SECalendarType select,
+.SECalendarKeyword input {
+  width: 100% !important; }
+
+
+.SECalendarKeyword, .SECalendarLocation, .SECalendarType {
+}
+.SEApplicationForm {
+}
+.SEApplicationSelector {
+}
+.SEApplicationSubmit {
+	display : inline;
+	float : left;
+	margin : 30px 0 50px;
+	clear : both;
+}
+.SEApplicationText {
+}
+.SEApplicationCheckbox {
+}
+.SEApplicationTextArea {
+}
+.SEClear {
+	height : 0px;
+}
+.rssLink {
+}
+
+#calendarSearchForm .SEApplicationSubmit {text-decoration : none;color : #000;border : 1px solid #666;padding : 5px 10px;background-color : #FEB30B;cursor : pointer;font-family : Arial, Helvetica, sans-serif;font-size : 1em;font-weight : bold;margin : 20px 0 25px;text-align : center;text-transform : uppercase;display : table;}
+#eventLocation {
+}
+#eventType {
+}
+.SECalendarKeyword {
+}
+.SECalendarKeyword label {
+}
+.SECalendarKeyword input {
+}
+.SECalendarLocation {
+}
+.SECalendarLocation label {
+}
+.SECalendarLocation input {
+}
+.SECalendarType {
+}
+.SECalendarType label {
+}
+.SECalendarType input {
+}
+
+.SECalendarDay {
+}
+.SECalendarDay.pastDay {
+}
+.SECalendarDay.pastDayWeekend {
+}
+.SECalendarDay.pastDayOtherMonth {
+}
+.SECalendarDay.pastDayOtherMonthWeekend {
+}
+.SECalendarDay.currentDay {
+}
+.SECalendarDay.currentDayWeekend {
+}
+.SECalendarDay.futureDay {
+}
+.SECalendarDay.futureDayWeekend {
+}
+.SECalendarDay.futureDayOtherMonth {
+}
+.SECalendarDay.futureDayOtherMonthWeekend {
+}
+.SECalendarDay.controls {
+	padding : 0;
+}
+.SECalendarDay.controls a {
+	background-image : SECalendarDay controls;
+	background-position : 5px 4px;
+	background-repeat : no-repeat;
+	display : block;
+	height : 20px;
+	overflow : hidden;
+	text-indent : -1000px;
+	width : 20px;
+}
+
+.SECalendarFilterSelected a {
+	color : #000;
+	font-weight : bold;
+	text-decoration : none;
+}
+#SECalendarSmallCalPrevious a {
+	background-image : url("/sebin/w/v/left_arrow.gif");
+	background-position : 5px 4px;
+	background-repeat : no-repeat;
+}
+
+#SECalendarSmallCalNext a {
+	background-image : url("/sebin/i/w/right_arrow.gif");
+	background-position : 5px 4px;
+	background-repeat : no-repeat;
+}
+
+#SECalendarEventWrapper .SECalendarEventActions ul li.eventRegistration a {
+	border : 1px solid #999;
+	color : #000;
+	cursor : pointer;
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : .9em;
+	font-weight : normal;
+	height : 22px;
+	margin : 0 25px 0 0;
+	text-align : center;
+	text-decoration : none;
+	padding : 2px 10px 3px;
+	background-image : url(/sebin/l/g/button-gradient.jpg);
+	background-repeat : repeat-x;
+	background-position : top;
+}
+.SECalendarDay a {
+}
+.SECalendarDay a:hover {
+}
+.SECalendarDay.pastDay a {
+}
+.SECalendarDay.pastDayWeekend a {
+}
+.SECalendarDay.pastDayOtherMonth a {
+}
+.SECalendarDay.pastDayOtherMonthWeekend a {
+}
+.SECalendarDay.currentDay a {
+}
+.SECalendarDay.currentDayWeekend a {
+}
+.SECalendarDay.futureDay a {
+}
+.SECalendarDay.futureDayWeekend a {
+}
+.SECalendarDay.futureDayOtherMonth a {
+}
+.SECalendarDay.futureDayOtherMonthWeekend a {
+}
+.SECalendarDay.pastDay a:hover {
+}
+.SECalendarDay.pastDayWeekend a:hover {
+}
+.SECalendarDay.pastDayOtherMonth a:hover {
+}
+.SECalendarDay.pastDayOtherMonthWeekend a:hover {
+}
+.SECalendarDay.currentDay a:hover {
+}
+.SECalendarDay.currentDayWeekend a:hover {
+}
+.SECalendarDay.futureDay a:hover {
+}
+.SECalendarDay.futureDayWeekend a:hover {
+}
+.SECalendarDay.futureDayOtherMonth a:hover {
+}
+.SECalendarDay.futureDayOtherMonthWeekend a:hover {
+}
+#SECalendarCurrentDay a {
+}
+#SECalendarCurrentDay a:hover {
+}
+#SECalendarCurrentDay {
+}
+
+
+.SECalendarSelectedWeek {
+}
+.SECalendarSelectedDay {
+}
+#SECalendarWrapper {
+}
+#SECalendar {
+}
+#SECalendarTable {
+}
+.SECalendarDOW {
+}
+.SECalendarDOWEnd {
+}
+#SECalendarCurrentEvent {
+}
+
+tr.SECalendarPastWeekDays td {
+}
+tr.SECalendarPastWeekEvents {
+}
+tr.SECalendarPastWeekEvents td {
+}
+
+tr.SECalendarCurrentWeekDays td {
+}
+tr.SECalendarCurrentWeekEvents {
+}
+tr.SECalendarCurrentWeekEvents td {
+}
+
+tr.SECalendarFutureWeekDays td {
+}
+tr.SECalendarFutureWeekEvents {
+}
+tr.SECalendarFutureWeekEvents td {
+}
+td.SECalendarEvent {
+}
+td.SECalendarEvent.currentEvent {
+}
+td.SECalendarEvent.currentEvent div.SECalendarEventDetails {
+}
+td.SECalendarEvent.currentEventWeekend {
+}
+td.SECalendarEvent.futureEvent {
+}
+td.SECalendarEvent.pastEvent {
+}
+td.SECalendarEvent.futureEventWeekend {
+}
+td.SECalendarEvent.pastEventWeekend {
+}
+td.SECalendarEvent.futureEventOtherMonth {
+}
+td.SECalendarEvent.futureEventOtherMonthWeekend {
+}
+td.SECalendarEvent.pastEventOtherMonth {
+}
+td.SECalendarEvent.pastEventOtherMonthWeekend {
+}
+div.SERecurringEvent {
+}
+div.SECalendarSingle div.SECalendarEventDetails {
+}
+div.SECalendarMultiDay  div.SECalendarEventDetails {
+}
+div.SECalendarAllDay div.SECalendarEventDetails {
+}
+#SECalendarWrapper div.SECalendarEventTime {
+}
+#SECalendarWrapper div.SECalendarEventName {
+}
+.SECalendarWeekday {
+}
+.SECalendarWeekend {
+}
+#SECalendarNav {
+}
+#SECalendarNav .rssLink {
+}
+#SECalendarNav .rssLink img {
+}
+.SECalendarMonth {
+}
+.SECalendarNextMonth {
+}
+.SECalendarPrevMonth {
+}
+.SECalendarNextMonth a, .SECalendarPrevMonth a {
+}
+.SECalendarNextMonth a {
+}
+.SECalendarPrevMonth a {
+}
+#SECalendarTable .SECalendarDay {
+}
+#SECalendarTable .SECalendarDay.pastDay {
+}
+#SECalendarTable .SECalendarDay.pastDayWeekend {
+  background-repeat: inherit; }
+
+#SECalendarTable .SECalendarDay.pastDayOtherMonth {
+}
+#SECalendarTable .SECalendarDay.pastDayOtherMonthWeekend {
+}
+#SECalendarTable .SECalendarDay.currentDay {
+}
+#SECalendarTable .SECalendarDay.currentDayWeekend {
+}
+#SECalendarTable .SECalendarDay.futureDay {
+}
+#SECalendarTable .SECalendarDay.futureDayWeekend {
+}
+#SECalendarTable .SECalendarDay.futureDayOtherMonth {
+}
+#SECalendarTable .SECalendarDay.futureDayOtherMonthWeekend {
+}
+#SECalendarTable .SECalendarDay a {
+}
+#SECalendarTable .SECalendarDay a:hover {
+}
+#SECalendarTable .SECalendarDay.pastDay a {
+}
+#SECalendarTable .SECalendarDay.pastDayWeekend a {
+}
+#SECalendarTable .SECalendarDay.pastDayOtherMonth a {
+}
+#SECalendarTable .SECalendarDay.pastDayOtherMonthWeekend a {
+}
+#SECalendarTable .SECalendarDay.currentDay a {
+}
+#SECalendarTable .SECalendarDay.currentDayWeekend a {
+}
+#SECalendarTable .SECalendarDay.futureDay a {
+}
+#SECalendarTable .SECalendarDay.futureDayWeekend a {
+}
+#SECalendarTable .SECalendarDay.futureDayOtherMonth a {
+}
+#SECalendarTable .SECalendarDay.futureDayOtherMonthWeekend a {
+}
+#SECalendarTable #SECalendarCurrentDay a {
+}
+#SECalendarTable .SECalendarDay.pastDay a:hover {
+}
+#SECalendarTable .SECalendarDay.pastDayWeekend a:hover {
+}
+#SECalendarTable .SECalendarDay.pastDayOtherMonth a:hover {
+}
+#SECalendarTable .SECalendarDay.pastDayOtherMonthWeekend a:hover {
+}
+#SECalendarTable .SECalendarDay.currentDay a:hover {
+}
+#SECalendarTable .SECalendarDay.currentDayWeekend a:hover {
+}
+#SECalendarTable .SECalendarDay.futureDay a:hover {
+}
+#SECalendarTable .SECalendarDay.futureDayWeekend a:hover {
+}
+#SECalendarTable .SECalendarDay.futureDayOtherMonth a:hover {
+}
+#SECalendarTable .SECalendarDay.futureDayOtherMonthWeekend a:hover {
+}
+#SECalendarTable #SECalendarCurrentDay a:hover {
+}
+#SECalendarListWrapper {
+	display : inline-table;
+	width : 100%;
+	background-image : url(/sebin/p/w/gradient-calendar.jpg);
+	background-position : left top;
+	background-repeat : repeat-y;
+	margin : 0 0 30px;
+}
+.SECalendarDate {
+}
+
+
+.SECalendarListEvents .rssLink {
+	background-image : url("/se/images/mod/semod_eventcal/rss.gif");
+	background-repeat : no-repeat;
+	display : block;
+	height : 15px;
+	overflow : hidden;
+	text-decoration : none;
+	width : 35px;
+	font-size : 0px;
+	border : 2px solid #feb30c;
+	margin: 0 !important;
+  position: absolute;
+  right: 10px;
+  top: -35px;
+}
+.SECalendarListEvents td {
+	border-bottom : 1px dotted #333;
+	padding : 15px 4px;
+}
+.SECalendarListEvents table tbody tr.odd {
+}
+.SECalendarListEvents table tbody tr.even {
+}
+td.SECalendarEventDate {
+	border-bottom : 1px solid #ccc;
+	font-size : 16px;
+	font-family: Patua One;
+	font-weight : normal;
+	padding : 10px 20px 10px 0;
+	border-top : 6px solid #ccc;
+}
+td.SECalendarEventTime {
+}
+td.SECalendarEventName {
+}
+td.SERecurringEvent {
+}
+td.SECalendarNoEvent {
+}
+
+.SECalendarProperty p {
+	width : 95%;
+}
+
+
+#SECalendarEventWrapper div.SECalendarEventDetails {
+	border : 1px solid #ccc;
+	display : inline-block;
+	width : 99.8%;
+	margin : 0 0 20px;
+}
+#SECalendarEventWrapper div.SECalendarEventName {
+}
+#SECalendarEventWrapper div.SECalendarEventName h3 {
+	font-size : 1.6em;
+}
+#SECalendarEventWrapper .SECalendarBackLink {
+	margin : 0 0 20px;
+	display : block;
+}
+#SECalendarEventWrapper .SECalendarEventActions {
+	background-color : #ebebeb;
+	border-top : 3px solid #ccc;
+	padding : 15px 10px;
+	border-left : 1px solid #ccc;
+	border-right : 1px solid #ccc;
+}
+#SECalendarEventWrapper .SECalendarEventActions ul {
+	list-style-type : none;
+	display : inline;
+}
+
+#SECalendarEventWrapper .SECalendarEventActions ul li.eventShare a {
+  border: 1px solid #999;
+  color: #000;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: .9em;
+  font-weight: normal;
+  height: 22px;
+  margin: 0 25px 0 0;
+  text-align: center;
+  text-decoration: none;
+  padding: 2px 10px 3px;
+  background-image: url(/sebin/l/g/button-gradient.jpg);
+  background-repeat: repeat-x;
+  background-position: top; }
+  
+  
+  #SECalendarEventWrapper .SECalendarPropertyLabel {
+  margin: 20px 0 0 15px;
+  font-size: 1.1em;
+  width: 95%; }
+  
+  
+#SECalendarEventWrapper .SECalendarEventActions ul li {
+	float : left;
+}
+
+#SECalendarEventWrapper .SECalendarEventActions ul li.eventDownload a {
+	background-image : url("/sebin/l/g/button-gradient.jpg");
+	background-repeat : repeat-x;
+	background-position : top;
+	border : 1px solid #999;
+	color : #000;
+	cursor : pointer;
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : .9em;
+	font-weight : normal;
+	height : 22px;
+	margin : 0 25px 0 0;
+	text-align : center;
+	text-decoration : none;
+	padding : 2px 10px 3px;
+}
+#SECalendarEventWrapper .SECalendarEventActions ul li.eventReminder a {
+  border: 1px solid #999;
+  color: #000;
+  cursor: pointer;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: .9em;
+  font-weight: normal;
+  height: 22px;
+  margin: 0 25px 0 0;
+  text-align: center;
+  text-decoration: none;
+  padding: 2px 10px 3px;
+  background-image: url("/sebin/l/g/button-gradient.jpg");
+  background-position: top;
+  background-repeat: repeat-x; }
+
+.eventReminder{display:none;}
+
+#SECalendarEventWrapper .SECalendarProperty {
+	float : left;
+	width : 99%;
+	margin : 0;
+	padding : 15px;
+}
+
+.SECalendarSmallCal .SECalendarDay.futureDayOtherMonth {
+	background-color : #bbb;
+}
+.SECalendarSmallCal .SECalendarDay.futureDayOtherMonthWeekend {
+	background-color : #bbb;
+}
+
+
+.SECalendarSmallCal .SECalendarDay.SECalendarSelectedDay {
+	background-color : #feb30c;
+}
+.SECalendarSmallCal #SECalendarCurrentDay a {
+}
+.SECalendarSmallCal #SECalendarCurrentDay a:hover {
+}
+.SECalendarSmallCal .SECalendarSelectedWeek {
+	background-color : #feb30c;
+}
+
+#SECalendarSmallCalMonth {
+	background-color : #c51110;
+}
+
+.SECalendarFilter {
+  background-color: #c51110;
+  color: #fff;
+  display: inline;
+  font-size: 1.1em;
+  font-weight: bold;
+  margin: 0 0 10px;
+  padding: 8px;
+  max-width: 72%;
+  width: 100% !important;
+  float: left; }
+  
+.SECalendarFilter a {
+	color : #fff;
+	font-weight : normal;
+	display : inline-block;
+	margin : 0 7px;
+}
+#SECalendarEventWrapper hr {
+	display : none;
+}
+#SECalendarShare {
+}
+#SECalendarShareEmail label {
+}
+#SECalendarReminder {
+	border-bottom : 1px solid #ccc;
+	padding : 0 0 80px;
+}
+.SECalendarReminderNotification {
+	margin : 0;
+}
+
+.SECalendarDay .controls {padding : 0;}
+#SESearchLink {padding : 3px;margin-top : 10px;}
+#SECalendarSunday {padding : 10px;text-align : left;border-top-width : 1px;border-bottom-width : 1px;border-top-style : solid;border-bottom-style : solid;border-top-color : #666;border-bottom-color : #666;background-color : #f9cb65;}
+#SECalendarTable .SECalendarPastEvents {background-color : #f5f5f5;padding : 10px;background-repeat : repeat-x;background-position : left top;border-bottom-width : 1px;border-bottom-style : solid;border-bottom-color : #666;background-image : url(/sebin/j/p/monthbkgd.jpg);vertical-align : top;}
+#SECalendarTable .SECalendarCurrentEvents {padding : 10px;border-bottom-width : 1px;border-bottom-style : solid;border-bottom-color : #666;background-repeat : repeat-x;background-position : left top;background-image : url(/sebin/j/p/monthbkgd.jpg);vertical-align : top;background-color : #f5f5f5;}
+#SECalendarTable .SECalendarFutureEvents {padding : 10px;border-bottom-width : 1px;border-bottom-style : solid;border-bottom-color : #666;background-repeat : repeat-x;background-position : left top;background-image : url(/sebin/j/p/monthbkgd.jpg);vertical-align : top;background-color : #f5f5f5;}
+#SECalendarTable .SECalendarEventDate {font-size : 10px;padding-bottom : 5px;padding-top : 10px;font-weight : bold;font-style : italic;font-family : Verdana, Geneva, sans-serif;}
+#SECalendarTable .SECalendarEventName {font-family : Arial, Helvetica, sans-serif;font-weight : bold;padding-top : 5px;padding-bottom : 5px;}
+#SECalendarTable .SECalendarEventLocation {font-size : 11px;padding-bottom : 10px;display : none;}
+#SECalendarMonday, #SECalendarTuesday, #SECalendarWednesday, #SECalendarThursday, #SECalendarFriday, #SECalendarSaturday, #SECalendarSunday {padding : 10px;text-align : left;background-color : #f9cb65;border-top: 1px solid #666;border-bottom: 1px solid #666;}
+.SEEvent {width : 200px;float : left;margin : 10px;background-color : #FC6;}
+#SEEventCalendar {text-align : center;width : 154px;}
+#SEEventCalendar th {font-family : Arial, Helvetica, sans-serif;color : #FFF;background-color : #999;padding : 3px;font-weight : bold;}
+.SEcalendarContent {font-family : Arial, Helvetica, sans-serif;font-size : 11px;text-align : center;background-color : #e9e9e9;padding : 5px;font-weight : normal;}
+.SECalendarWeek {font-family : Arial, Helvetica, sans-serif;background-color : #999;color : #FFF;font-weight : bold;}
+.SEEventLeft h4 {font-family : Arial, Helvetica, sans-serif;font-size : 18px;color : #000;}
+.SEEventType {font-family : Arial, Helvetica, sans-serif;font-size : 14px;font-weight : bold;text-align : center;width : 150px;padding : 5px;border : 1px solid #000;background-color : #F9CB65;margin-bottom : 20px;margin-top : 20px;}
+#SEEventMonthSelector {padding : 5px 5px 15px;width : 150px;background-color : #f9cb65;height : 25px;}
+#LeftCalendar .SEEventLeft {float : left;background-color : #ebebeb;width : 160px;margin-left : 15px;}
+#LeftCalendar {float : left;height : auto;width : 175px;position : absolute;}
+#EventListing {height : auto;width : auto;border-left-width : 10px;border-left-style : solid;border-left-color : #f9cb65;}
+#EventListing .SEEventLeft {border-left-width : 173px;border-left-style : solid;border-left-color : #ebebeb;padding-left : 20px;padding-bottom : 300px;float : left;}
+.SEEventName {font-weight : bold;padding-top : 5px;padding-right : 5px;padding-bottom : 5px;padding-left : 5px;}
+.SEEventLocation {padding : 5px;}
+.SEEventRemindMeButton img {}
+.SEEventDesc, .SEEventDate {padding : 5px;}
+
+#searchButton {margin-right : 10px;}
+#goForm {width : 154px;height : 25px;}
+#goForm input {margin-top : 0px;margin-right : 0px;margin-bottom : 0;margin-left : 0px;}
+select {padding : 3px;font-size : 16px;}
+#EventListingContainer {width : 700px;margin-top : 20px;}
+#SEEventName {font-family : Arial, Helvetica, sans-serif;font-size : 16px;font-weight : bold;margin-bottom : 10px;padding-bottom : 5px;padding-top : 5px;border-bottom-width : 1px;border-bottom-style : solid;border-bottom-color : #000;background-color : #e9e9e9;text-indent : 10px;}
+.SEEventDetail {font-size : 11px;padding-top : 3px;padding-right : 3px;padding-bottom : 10px;padding-left : 3px;margin-left : 10px;}
+.SEEventDetail strong {font-size : 13px;padding-bottom : 15px;}
+
+#SEEventEmailFriendName {font-family : Arial, Helvetica, sans-serif;font-size : 16px;font-weight : bold;padding-top : 5px;padding-right : 5px;padding-bottom : 5px;padding-left : 10px;border-bottom-width : 1px;border-bottom-style : solid;border-bottom-color : #000;background-color : #e9e9e9;margin-bottom : 10px;margin-top : 10px;}
+#emailfriendcontainer {width : 605px;}
+#emailfriendtime {font-family : Arial, Helvetica, sans-serif;font-style : italic;margin-bottom : 15px;padding-top : 25px;}
+#SEEventEmailFriendType {margin-bottom : 10px;font-size : 11px;}
+#SEEventEmailFriendType strong {}
+#emailfriendlocation {margin-bottom : 10px;font-family : Arial, Helvetica, sans-serif;font-size : 11px;}
+#emailfriendlocation strong {}
+#SEEventEmailFriendDesc {font-family : Arial, Helvetica, sans-serif;font-size : 11px;margin-top : 10px;margin-bottom : 50px;}
+#emailfriendformcontainer {background-repeat : repeat-x;border-top-width : 1px;border-top-style : solid;border-top-color : #333;margin-top : 10px;background-image : url(/sebin/v/p/detailbkgd2.jpg);}
+#EmailFriendForm {margin-left : 50px;margin-top : 20px;}
+#EmailFriendForm .SEEventEmailFriendLabel {font-family : Arial, Helvetica, sans-serif;font-size : 11px;font-weight : bold;margin-top : 10px;margin-right : 10px;margin-bottom : 10px;}
+#EmailFriendForm .SEEventEmailFriendInput {width : 500px;}
+#SenderName {width : 500px;}
+#SenderEmail {width : 500px;}
+#FriendEmail {width : 500px;}
+#Message {width : 500px;}
+#EmailFriendForm .SEEventEmailFriendButton {padding-top : 15px;}
+#remindmecontainer {width : 600px;}
+#remindmeformcontainer {background-repeat : repeat-x;border-top-width : 1px;border-top-style : solid;border-top-color : #000;margin-top : 35px;background-image : url(/sebin/v/p/detailbkgd2.jpg);}
+#RemindMeForm {margin-left : 40px;margin-top : 10px;}
+#RemindMeForm .SEEventRemindmeLabel {font-family : Arial, Helvetica, sans-serif;font-weight : bold;padding-top : 10px;padding-right : 10px;padding-bottom : 10px;width : 200px;}
+#RemindMeForm .SEEventRemindmeInput {width : 500px;}
+#RecipientName {width : 500px;}
+#RecipientEmail {width : 500px;}
+#SEEventRemindmeMessage {font-family : Arial, Helvetica, sans-serif;font-weight : bold;padding-top : 25px;padding-right : 10px;padding-bottom : 10px;}
+#remindmeimage {padding-bottom : 20px;}
+#RemindMeForm .SEEventRemindmeCheckbox {float : left;font-size : 11px;}
+#RemindMeForm .SEEventRemindmeCheckbox label {margin-top : 0px;margin-right : 15px;margin-left : 0px;}
+#RemindMeForm .SEEventRemindmeCheckbox #Day {}
+#RemindMeForm .SEEventRemindmeButton {margin-top : 50px;}
+#SEEventRemindMeName {Font-family : Arial, Helvetica, sans-serif;font-size : 16px;font-weight : bold;border-bottom-width : 1px;border-bottom-style : solid;border-bottom-color : #000;padding-top : 5px;padding-right : 5px;padding-bottom : 5px;padding-left : 10px;background-color : #e9e9e9;}
+#SEEventRemindMeDate {font-family : Arial, Helvetica, sans-serif;font-style : italic;padding-top : 20px;padding-bottom : 10px;}
+#SEEventRemindMeDesc {font-size : 11px;padding-top : 5px;padding-right : 5px;padding-bottom : 5px;}
+#SearchForm .SEEventSearchLabel {font-size : 16px;font-weight : bold;background-color : #e9e9e9;border-bottom-width : 1px;border-bottom-style : solid;border-bottom-color : #000;margin-bottom : 15px;padding : 5px;margin-top : 15px;}
+#SearchForm {width : 600px;float : left;}
+#SEEventSearchStart {font-weight : bold;padding-top : 10px;padding-right : 10px;padding-bottom : 10px;padding-left : 0px;float : left;}
+#SearchForm .SEEventSearchIcon {padding-top : 5px;padding-right : 5px;padding-bottom : 5px;	padding-left : 0px;}
+#SEEventSearchEnd {font-weight : bold;padding-top : 10px;padding-right : 10px;padding-bottom : 10px;padding-left : 0px;}
+#SEEventSearchTypes div {font-size : 11px;padding : 5px;}
+#KeyWords {width : 500px;}
+#SEEventSearchKeywords div {padding : 5px;font-weight : bold;}
+#SEEventSearchGoButton {width : 200px;padding-top : 20px;padding-right : 10px;padding-bottom : 10px;}
+#SEEventSearchKeywords {padding-top : 20px;}
+#SEEventSearchLocations div {font-size : 11px;padding : 5px;}
+#SearchResults {clear : left;}
+#regevent {font-size : 11px;padding-top : 5px;padding-right : 5px;padding-bottom : 5px;padding-left : 0px;}
+#regevent strong {font-size : 13px;}
+#regdate {padding-top : 5px;padding-right : 5px;padding-bottom : 15px;padding-left : 0px;font-size : 11px;}
+#regdate strong {font-size : 13px;}
+#OnlineRegistrationForm {margin-top : 20px;}
+#regformcontainer {width : 600px;background-repeat : repeat-x;border-top-width : 1px;border-top-style : solid;border-top-color : #000;background-image : url(/sebin/v/p/detailbkgd2.jpg);}
+#OnlineRegistrationForm .SEEventRegisterLabel {text-align : right;font-weight : bold;font-size : 11px;padding : 5px;}
+#regformcontainer h3 {padding-top : 15px;padding-left : 20px;}
+#OnlineRegistrationForm .SEEventRegisterInput #theName {width : 200px;}
+#OnlineRegistrationForm .SEEventRegisterInput #Address {width : 200px;}
+#OnlineRegistrationForm .SEEventRegisterInput #Address2 {width : 200px;margin-top : 5px;}
+#OnlineRegistrationForm .SEEventRegisterInput #City {width : 200px;}
+#OnlineRegistrationForm .SEEventRegisterInput #State {width : 200px;padding : 3px;}
+#OnlineRegistrationForm .SEEventRegisterInput #Zipcode {width : 200px;}
+#OnlineRegistrationForm .SEEventRegisterInput #Phone {width : 200px;}
+#OnlineRegistrationForm .SEEventRegisterInput #EmailAddress {width : 200px;}
+#OnlineRegistrationForm .SEEventRegisterButton input {margin-top : 15px;}
+#EventListingDetail #SESearchLink {width : auto;float : right;margin : 0px;padding : 0px;}
+#EventListingDetail .SEEventLeft {width : 700px;}
+#EventListingDetail {padding-top : 0px;width : 700px;height : 75px;float : left;margin-top : 25px;margin-left : 15px;}
+#EventListingDetail #SEEventListingLink {width : auto;margin-left : 0px;float : right;display : inline;}
+.SEcalendarContent .SEcalendarSelected {background-color : #999;border : 1px solid #666;}
+#EventListingDetail .SEEventButtons {width : 190px;padding : 0px;float : left;}
+#EventListingDetail .SEEventButtons .SEEventRemindMeButton {float : left;width : 35px;}
+#EventListingDetail  .SEEventButtons .SEEventEmailFriendButton {float : right;width : 35px;}
+#MeetingEventsListings .SEEventButtons {margin-top : 20px;}
+#SEEventCalendar .SEcalendarSelected {background-color : #a9a9a9;font-weight : bold;}
+#eventListingButton {float : left;}
+.SEEventLeft  h3 {float : left;margin-top : 10px;margin-left : 10px;}
+#EventsCalendarLink {width : 250px;margin-bottom : 20px;height : 50px;}
+#CalendarContainer {background-image : url("/se/images/mod/semod_eventcal/right_arrow.gif");}
+#SECalendarSearch {background: #ebebeb !important;float: right;height: 100%;margin-bottom: 20px;margin-top: 6px;max-width: 25%;/* width: 100% !important;*/padding:0;}
+#SECalendarSearch::before{content: "Calendar Filter";background-color: #c51110;color: white;display: block;font-family: Patua One;padding:10px;text-transform: uppercase;}
+#calendarSearchForm {margin: 0px 10px 10px;padding: 0;}
+  
+tr.SECalendarPastWeekDays, tr.SECalendarCurrentWeekDays, tr.SECalendarFutureWeekDays {border: 1px solid #999;}
+
+.SECalendarFilterSelected {background-color: #990000;padding: 0 5px; }
+
+.SECalendarDay.controls {padding: 0; width:auto;}
+
+.SECalendarDay.controls a {background-image: SECalendarDay controls;background-position: 5px 4px;background-repeat: no-repeat;display: block;height: 20px;overflow: hidden;text-indent: -1000px;width: 20px; }
+
+#SECalendarSmallCalPrevious a {background-image: url("/sebin/w/v/left_arrow.gif");background-position: 5px 4px;background-repeat: no-repeat;float: right;}
+
+
+#SECalendarSmallCalMonth a {background: none repeat scroll 0 0 transparent;font-family:Patua One;font-size: 1.5em; font-weight: normal;padding: 10px !important;text-decoration:none !important;height: auto;text-indent: 0;width: auto;color: #fff;margin: 5px 0; }
+  
+#SECalendarSmallCalNext{background-color:#c51110;display: block;margin: 15px 0 0;}
+
+#SECalendarSmallCalPrevious{background-color:#c51110;display: block;margin: 15px 0 0;}
+
+
+#SECalendarSmallCalNext a {background-image: url("/sebin/i/w/right_arrow.gif");background-position: 5px 4px;background-repeat: no-repeat;float: right;}
+
+#SECalendarListWrapper, #SECalendarSummaryWrapper {display: inline-table;width: 100%;background: none !important;background-position: left top;background-repeat: repeat-y;margin: 0 0 30px; }
+
+.SECalendarListEvents {float: left;position: relative;width:72%;}
+.SECalendarListEvents table {margin: 0;width: 100% !important;word-wrap: break-word; }
+	
+.SECalendarListEvents table tr{padding:20px 0;}
+
+.SECalendarListEvents td {border-bottom: 1px dotted #333;padding: 15px 4px; }
+
+#SECalendarListWrapper .SECalendarSmallCal, #SECalendarSummaryWrapper .SECalendarSmallCal {float: left;margin: 5px 0 0 0 !important;padding: 0;clear: none; }
+
+.SECalendarSmallCal {max-width:100% !important;float: none !important;}
+
+.SECalendarProperty p {width: 95%; }
+
+#SECalendarEventWrapper div.SECalendarEventDetails {border: 1px solid #ccc;display: inline-block;width: 99.8%;margin: 0 0 20px; }
+
+#SECalendarEventWrapper div.SECalendarEventName h3 {font-size: 1.6em; }
+
+#SECalendarEventWrapper .SECalendarBackLink {margin: 0 0 20px;display: block; }
+
+#SECalendarEventWrapper .SECalendarProperty {float: left;width: 99%;margin: 0;padding: 15px; }
+
+.SECalendarReminderName,.SECalendarReminderEmail,.SECalendarReminderOccurence,.SECalendarReminderNotification {margin: 0 0 10px -50px; }
+
+.SECalendarReminderName label,.SECalendarReminderEmail label,.SECalendarReminderOccurence label {font-weight: bold;font-size: 1em;margin: 0 0 0 50px;display: inline; }
+
+.SECalendarReminderName input, .SECalendarReminderEmail input, .SECalendarReminderOccurence input {margin : 0;}
+.SECalendarShareName, .SECalendarShareEmail, .SECalendarShareFriendEmail, .SECalendarShareMessage {margin: 0 0 10px -50px;padding: 10px; }
+
+.SECalendarShareName label, .SECalendarShareEmail label, .SECalendarShareFriendEmail label, .SECalendarShareMessage label {margin: 0 0 0 40px;
+display: inline; }
+
+.SECalendarSmallCal .SECalendarDay.futureDayOtherMonth {background-color: #bbb; }
+
+.SECalendarSmallCal .SECalendarDay.futureDayOtherMonthWeekend {background-color: #bbb; }
+
+.SECalendarSmallCal .SECalendarDay a {display: inline-block;padding: 20% 40% !important;color: #333;text-decoration: underline !important; }
+  
+.SECalendarSmallCal .SECalendarDay.futureDayWeekend a {display: block;padding: 10% 40%;}
+
+
+.SECalendarSmallCal .SECalendarDay.SECalendarSelectedDay {background-color: #feb30c; }
+
+.SECalendarSmallCal .SECalendarSelectedWeek {background-color: #feb30c; }
+
+#SECalendarSmallCalMonth {background-color: #c51110; }
+
+.SECalendarSmallCal table{}
+
+.SECalendarSmallCal thead{background-color:#c51110;}
+
+.SECalendarSmallCal table {margin-bottom: 22px;/*max-width: 670px;*/width: 70%;border-collapse: collapse;border-spacing: 0;}
+.SECalendarFilter a {color: #fff;font-weight: normal;display: inline-block;margin: 0 7px; }
+
+#SECalendarEventWrapper hr {display: none; }
+
+#SECalendarReminder {border-bottom: 1px solid #ccc;padding: 0 0 80px; }
+.SECalendarReminderNotification {margin: 0; }
+
+#maincontainer #SECalendarListWrapper .SECalendarFilter a,
+#maincontainer #SECalendarSummaryWrapper .SECalendarFilter a,
+#maincontainer #SECalendarListWrapper #SECalendarSmallCalMonth a,
+#maincontainer #SECalendarSummaryWrapper #SECalendarSmallCalMonth a {
+  color: white !important; }
+
+.SECalendarSmallCal .SECalendarDay.pastDay {}
+.SECalendarSummaryDateList {float: left;position: relative;max-width: 524px;width: 100%; }
+.SECalendarSummaryDateList ul {margin: 0;padding-left: 20px; }
+.SECalendarFilter {clear: none; }
+  
+ /*STYLES ADDED FOR CALENDAR VIEW ON MOBILE - WORKING AROOUND SE -START*/
+.SECalendarSummaryDateEventList .odd{}
+.SECalendarSummaryDateList ul{padding:0;list-style-type:none;}	
+.SECalendarEvent {border-bottom: 3px dotted #ccc;margin:0 0 40px 20px;}
+.SECalendarPropertyLabel {font-weight: bold;display:block;clear: both;margin: 20px 50px 0 0;width: 70px; }  
+.SECalendarProperty {clear: both;display: block; margin: 0 0 20px; width: auto;}
+.SECalendarEventName{clear:both;font-family: Patua One;font-size: 1.3em;margin: 20px 0;}
+/*STYLES ADDED FOR CALENDAR VIEW ON MOBILE - WORKING AROOUND SE - END*/
+
+@media only screen and (max-width: 480px) {
+    .SECalendarListEvents .rssLink{top: -75px;}
+}
